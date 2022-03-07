@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyTorch-Learning_CNN", "PyTorch-Learning_CNN\PyTorch-Learning_CNN.pyproj", "{01DC0DC9-4239-46BD-BC2B-F8B0EA447EC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01DC0DC9-4239-46BD-BC2B-F8B0EA447EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DC0DC9-4239-46BD-BC2B-F8B0EA447EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F11575F7-1957-4601-B293-96B25E8E8A6D}
+	EndGlobalSection
+EndGlobal

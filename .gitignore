@@ -361,3 +361,26 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/PyTorch-Learning_CNN/runs/batch_size=100 lr=0.001 shuffle=False
+/PyTorch-Learning_CNN/runs/batch_size=100 lr=0.001 shuffle=True
+/PyTorch-Learning_CNN/runs/batch_size=100 lr=0.01 shuffle=False
+/PyTorch-Learning_CNN/runs/batch_size=100 lr=0.01 shuffle=True
+/PyTorch-Learning_CNN/runs/batch_size=1000 lr=0.001 shuffle=False
+/PyTorch-Learning_CNN/runs/batch_size=1000 lr=0.001 shuffle=True
+/PyTorch-Learning_CNN/runs/batch_size=1000 lr=0.01 shuffle=False
+/PyTorch-Learning_CNN/runs/batch_size=1000 lr=0.01 shuffle=True
+/PyTorch-Learning_CNN/runs/Mar03_17-24-12_Matestation-ZW
+/PyTorch-Learning_CNN/runs/Mar05_19-35-15_Matestation-ZW-Run(p_lr=0.01, p_batch_size=1000, p_shuffle=False, num_workers=1, device='cuda')
+/PyTorch-Learning_CNN/runs/Mar05_19-35-31_Matestation-ZW-Run(p_lr=0.01, p_batch_size=10000, p_shuffle=False, num_workers=1, device='cuda')
+/PyTorch-Learning_CNN/runs/Mar05_19-39-16_Matestation-ZW-Run(p_lr=0.001, p_batch_size=1000, p_shuffle=False, num_workers=1, device='cuda')
+/Figure_1.png
+/PyTorch-Learning_CNN/runs/Mar06_15-54-23_Matestation-ZW-Run(p_lr=0.001, p_batch_size=1000, p_shuffle=False, p_num_workers=2, device='cuda', trainset='not_normal')
+/PyTorch-Learning_CNN/runs/Mar06_16-00-52_Matestation-ZW-Run(p_lr=0.001, p_batch_size=1000, p_shuffle=False, p_num_workers=2, device='cuda', trainset='normal')
+/PyTorch-Learning_CNN/results_Mar.06_16-08-10.json
+/PyTorch-Learning_CNN/results_Mar.06_16-08-10.csv
+/PyTorch-Learning_CNN/results_Mar.06_15-28-43.json
+/PyTorch-Learning_CNN/results_Mar.06_15-28-43.csv
+/PyTorch-Learning_CNN/results_Mar.05_19-42-54.json
+/PyTorch-Learning_CNN/results_Mar.05_19-42-54.csv
+/PyTorch-Learning_CNN/results_Mar.05_19-35-47.json
+/PyTorch-Learning_CNN/results_Mar.05_19-35-47.csv
