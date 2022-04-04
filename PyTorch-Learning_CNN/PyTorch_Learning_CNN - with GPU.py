@@ -32,7 +32,7 @@ from datetime import datetime
 torch.set_printoptions(linewidth = 120)
 
 # Hyper Parameters
-EPOCH = 20		   # 训练整批数据多少次	  
+EPOCH = 5		   # 训练整批数据多少次	  
 DOWNLOAD_MNIST = False  # 如果你已经下载好了mnist数据就写上 False
 params = OrderedDict(
 	p_lr = [.001] # 学习率
@@ -97,7 +97,7 @@ class RunManager():
 		self.tb.add_image('images', grid)
 		self.tb.add_graph(
 				self.network
-				, images.to(getattr(run, 'device', 'cpu'))
+				, images.to(getattr(run, 'device', 'cpu')) # If the run object doesn't have a device, then cpu is returned.
 		)
 
 	def end_run(self):
@@ -213,7 +213,7 @@ def process():
 		comment = f'-{run}'
 
 		device = torch.device(run.device)
-		network = Network().to(device)
+		network.to(device)
 
 		train_loader = DataLoader(
 			train_set
