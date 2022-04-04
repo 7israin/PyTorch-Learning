@@ -29,13 +29,18 @@ import time
 import json
 from datetime import datetime
 
-# Hyper Parameters
-EPOCH = 20		   # 训练整批数据多少次
-# BATCH_SIZE = 100
-# LR = 0.001		  # 学习率
-DOWNLOAD_MNIST = False  # 如果你已经下载好了mnist数据就写上 False
-
 torch.set_printoptions(linewidth = 120)
+
+# Hyper Parameters
+EPOCH = 20		   # 训练整批数据多少次	  
+DOWNLOAD_MNIST = False  # 如果你已经下载好了mnist数据就写上 False
+params = OrderedDict(
+	p_lr = [.001] # 学习率
+	,p_batch_size = [1000]
+	,p_shuffle = [False]
+	,num_workers = [2]
+    ,device = ['cuda']
+)
 
 train_set = torchvision.datasets.FashionMNIST(
 	root = './data'
@@ -44,14 +49,6 @@ train_set = torchvision.datasets.FashionMNIST(
 	,transform = transforms.Compose([
 		transforms.ToTensor()
 	])
-)
-
-params = OrderedDict(
-	p_lr = [.001]
-	,p_batch_size = [1000]
-	,p_shuffle = [False]
-	,num_workers = [2]
-    ,device = ['cuda']
 )
 
 class RunBuilder():
